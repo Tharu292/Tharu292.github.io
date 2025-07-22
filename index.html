@@ -1,0 +1,118 @@
+<DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tharushi Kavindhya</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+
+    <body>
+        <!--Header-->
+        <header>
+            <a href="#" class="logo">Tharushi Kavindhya</a>
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div id="menu" class="fas fa-bars"></div>
+        </header>
+
+        <!--Home section-->
+        <section class="home" id="home">
+            <h1>Hi, I'm Tharu</h1>
+            <p>Undergratuade student of SLIIT</p>
+            <a href="#portfolio"><button class="btn">View my Work</button></a>
+        </section>
+
+        <!--Services section-->
+        <section class="services" id="services">
+            <h1 class="heading">My <span>Services</span> </h1>
+            <div class="box-container">
+                <div class="box">
+                    <i class="fas fa-code"></i>
+                    <span class="head">Web Development</span>
+                    <h3>HTML, CSS, JavaScript<br>React, Node.js</h3>
+                    <p>Building responsive ans scalable web applications</p>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-mobile"></i>
+                    <span class="head">Mobile Development</span>
+                    <h3>React Native</h3>
+                    <p>mobile apps for Android and ios</p>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-cloud"></i>
+                    <span class="head">Cloud Services</span>
+                    <h3>AWS, Azure</h3>
+                    <p>Scalable cloud infrastructure and deployment</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!--Portfolio section-->
+        <section class="portfolio" id="portfolio">
+            <h1 class="heading">My<span> Services</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <a href="https://github.com/yourusername/project1" target="_blank">
+                        <img src="images/project1.png" alt="Project 1">
+                        <div>Project 1</div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="https://github.com/yourusername/project2" target="_blank">
+                        <img src="images/project2.png" alt="Project 2">
+                        <div>Project 2</div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="https://github.com/yourusername/project3" target="_blank">
+                        <img src="images/project3.png" alt="Project 3">
+                        <div>Project 3</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--Contact section-->
+        <section class="contact" id="contact">
+            <h1 class="heading"><span>Contact</span> Me</h1>
+            <div class="row">
+                <div class="content">
+                    <h3 class="title">Contact Info</h3>
+                    <div class="info">
+                        <a href="mailto:your.email@gmail.com">
+                            <h3><i class="fas fa-envelope"></i> your.email@gmail.com</h3>
+                        </a>
+                        <h3><i class="fas fa-phone"></i> +123-456-7890</h3>
+                        <h3><i class="fas fa-map-marker-alt"></i> Your City, Country</h3>
+                        <h3>
+                            <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/yourusername" target="_blank"><i
+                                    class="fa-brands fa-square-github"></i></a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="form">
+                    <input type="text" placeholder="Name" class="box">
+                    <input type="email" placeholder="Email" class="box">
+                    <input type="text" placeholder="Project" class="box">
+                    <textarea placeholder="Message" class="box message" cols="30" rows="10"></textarea>
+                    <button class="btn">Send Message</button>
+                </div>
+            </div>
+        </section>
+        <script src="script.js"></script>
+
+    </body>
+
+    </html>
